@@ -1,0 +1,32 @@
+gstatus.bat
+
+# Local agent metadata
+.serena/
+
+# Local worktrees and OpenWrt build outputs
+/.worktrees/
+/worktrees/
+/openwrt/
+/dl/
+/bin/
+/build_dir/
+/staging_dir/
+/tmp/
+/.ccache/
+/logs/
+
+# OpenWrt temporary/generated files
+*.log
+*.tmp
+*.bak
+*.orig
+vermagic
+packages.txt
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+graft/
+
+# Local AI agent metadata
+.claude/
+.mcp.json
+opencode.json
